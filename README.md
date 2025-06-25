@@ -1,31 +1,25 @@
 # Factor-Regression-Tool
 
-## Objective
-[Brief Objective - Remove this afterwards]
+## Market Regression Engine: Beta & Correlation Framework
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+![RegressionAnalysis](https://github.com/user-attachments/assets/d0c6c802-794b-4ffc-aa1f-628652c97dc5)
 
-### Skills Learned
-[Bullet Points - Remove this afterwards]
+Built a dynamic regression model that was inspired by Kris Abdelmessih. Kris emphased the importance of analyzing assets response to each other - we can quantify these relations by using statistical relationships like beta, correlation, and R². This tool quantifies systematic risk vs idiosyncratic alpha—a critical step in building hedged or relative-value trades.
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+**Core Features:**
+Beta Decomposition: Measures asset sensitivity (e.g., VXX vs SPY) using β = Correlation × Volatility Ratio
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+- Rolling Beta & Correlation: Detects structural regime shifts in relationships over time
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Statistical Output: Includes p-values, t-stats, and standard errors for signal confidence
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+- Risk Modeling: Quantifies how much of an asset's movement is hedgeable and what remains as alpha opportunity
 
-Every screenshot should have some text explaining what the screenshot is about.
+**Use Cases:**
+- Hedge sizing with: Hedge Notional = β × Position
 
-Example below.
+- Dispersion trades (e.g., short QQQ / long SPY beta-neutral pairs)
 
-*Ref 1: Network Diagram*
+- Regime detection via decaying R² and correlation breakdowns
+
+
