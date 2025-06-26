@@ -27,5 +27,6 @@ Beta Decomposition: Measures asset sensitivity (e.g., VXX vs SPY) using β = Cor
 
 ## Project Archive 
 
-**<a href="https://github.com/PatrickRych/Portfolio-Manager">Project Archive </a>**
+| <a href="https://github.com/PatrickRych/Project/edit/main/README.md">LandingPage </a>
+| <a href="https://github.com/PatrickRych/Portfolio-Manager">Project Archive </a>
 ****
