@@ -6,6 +6,8 @@
 
 Built a dynamic regression model that was inspired by Kris Abdelmessih. Kris emphased the importance of analyzing assets response to each other - we can quantify these relations by using statistical relationships like beta, correlation, and R². This tool quantifies systematic risk vs idiosyncratic alpha—a critical step in building hedged or relative-value trades.
 
+Kris emphasized the importance of Beta (i.e. rolling period 21d) to capture both the strength and the scale of how the asset moves relative to the reference. 
+
 **Core Features:**
 Beta Decomposition: Measures asset sensitivity (e.g., VXX vs SPY) using β = Correlation × Volatility Ratio
 
@@ -21,7 +23,6 @@ Beta Decomposition: Measures asset sensitivity (e.g., VXX vs SPY) using β = Cor
 - Dispersion trades (e.g., short QQQ / long SPY beta-neutral pairs)
 
 - Regime detection via decaying R² and correlation breakdowns
-
 
 
 ## Project Archive 
