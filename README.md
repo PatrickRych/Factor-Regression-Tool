@@ -1,6 +1,6 @@
 # Factor-Regression-Tool
 
-## Market Regression Engine: Beta & Correlation Framework
+## Market Regression Engine: Beta & Correlation Framework 
 
 ![RegressionAnalysis](https://github.com/user-attachments/assets/d0c6c802-794b-4ffc-aa1f-628652c97dc5)
 
